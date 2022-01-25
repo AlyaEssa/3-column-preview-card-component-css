@@ -31,6 +31,8 @@ main {
   height: 397px;
   margin: 73px auto;
   display: flex;
+  justify-content: center;
+  align-items: center; /*new*/
 }
 main .card {
   width: 40%;
