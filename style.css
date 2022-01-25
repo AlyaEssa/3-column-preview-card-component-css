@@ -69,6 +69,7 @@ main .card p {
 }
 main .card .btn {
      margin-top: 91px;
+   margin-bottom: 20px;
   padding: 12px 28px;
   border: none;
   border-radius: 16px;
