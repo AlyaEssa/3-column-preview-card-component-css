@@ -58,6 +58,7 @@ main .card h1 {
   color: var(--very-light-gray);
   font-family: "Big Shoulders Display", cursive;
   font-weight: 700;
+   font-size: 40px; /*added */
   letter-spacing: 1px;
 }
 main .card p {
