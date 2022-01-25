@@ -25,17 +25,14 @@
 body {
   font-family: "Lexend Deca", sans-serif;
   background-color: var( --very-light-gray);
-   display: flex;
-  justify-content: center;
-  align-items: center; /*neww*/
+  
 }
 main {
   width: 813px;
   height: 397px;
-  /*margin: 73px auto;*/
+  margin: 73px auto;
   display: flex;
-  justify-content: center;
-  align-items: center; /*new*/
+ 
 }
 main .card {
   width: 40%;
