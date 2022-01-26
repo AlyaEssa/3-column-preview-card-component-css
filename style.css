@@ -30,30 +30,19 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Lexend Deca", sans-serif;
-  outline: none;
 }
 
-.attribution {
-  color: #000;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-}
 .main {
-  padding: 90px 0 0 0;
-  max-width: 923px;
-  margin: auto;
-  /* background-color: red; */
+  padding-top: 22px;
 }
 .container {
-  max-width: 850px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 80%;
+  max-width: 1400px;
+
+  margin: 0 auto;
 }
 .card {
-  padding: 2.5rem;
+  padding: 60px;
 }
 .card h1 {
   text-transform: uppercase;
@@ -67,28 +56,62 @@ body {
 .card p {
   color: var(--transparent-white);
   font-weight: 400;
-  font-size: 12px;
-  line-height: 25px;
+  font-size: 14px;
+  line-height: 29px;
   font-family: "Lexend Deca", sans-serif;
 }
 
 .btn {
-  margin-top: 99px;
-  margin-bottom: 20px;
-  padding: 12px 29px;
+  margin-top: 35px;
+  padding: 20px 51px;
   text-decoration: none;
   border: none;
   border-radius: 100px;
+  text-transform: capitalize;
+  font-size: 16px;
+  background-color: hsl(0, 0%, 95%);
+  transition: 0.5s;
+}
+.btn:hover {
+  border: 1px solid #fff;
+  background: none;
+  color: #fff;
+}
+.btn1 {
+  color: var(--bright--orange);
+}
+.btn-suv {
+  color: var(--dark-cyan);
+}
+.btn-lux {
+  color: var(--very-dark-cyan);
+  margin-top: 60px;
 }
 .card1 {
   background-color: var(--bright--orange);
-  border-radius: 12px 0 0 12px;
+  color: var(--bright--orange);
 }
 .card2 {
   background-color: var(--dark-cyan);
+  color: var(--dark-cyan);
 }
+
 .card3 {
   background-color: var(--very-dark-cyan);
-  border-radius: 0 12px 12px 0;
+  
 }
+
+@media (min-width: 999px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  .card1 {
+    border-radius: 12px 0 0 12px;
+  }
+  .card3 {
+    border-radius: 0 12px 12px 0;
+  }
+}
+
 
